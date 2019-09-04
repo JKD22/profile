@@ -1,0 +1,22 @@
+/* Nav */
+a:hover, a:focus {
+    cursor: default;
+    text-decoration: none;
+  }
+  
+  li {
+    margin-right: 15px;
+  }
+  
+  .navbar-inner {
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 1920px;
+    width: 100%;
+  }
+  
+  .brand {
+    margin-right: 100%;
+  }
