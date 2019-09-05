@@ -7,3 +7,11 @@ hr {
 .mB-30 {
     margin-bottom: 30px;
 }
+
+#logo {
+  height: 12rem;
+  width: 15rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import "open-iconic/font/css/open-iconic-bootstrap.css"
+import "open-iconic/font/css/open-iconic-bootstrap.css";
 import './style.css';
 
 
@@ -10,7 +10,6 @@ const Nav = () => (
             <div className="navbar-inner">
                 <div className="container">
                     <ul className="nav">
-                        {/* <li><a className="oi oi-menu" href="/#"/></li> */}
                         <li><a className="oi oi-home" href="/#"/></li>
                     </ul>
                 </div>
