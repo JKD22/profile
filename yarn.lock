@@ -6760,6 +6760,11 @@ onetime@^2.0.0:
   dependencies:
     mimic-fn "^1.0.0"
 
+open-iconic@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/open-iconic/-/open-iconic-1.1.1.tgz#9dcfc8c7cd3c61cdb4a236b1a347894c97adc0c6"
+  integrity sha1-nc/Ix808Yc20ojaxo0eJTJetwMY=
+
 open@^6.3.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/open/-/open-6.4.0.tgz#5c13e96d0dc894686164f18965ecfe889ecfc8a9"
@@ -8122,6 +8127,11 @@ react-is@^16.8.1, react-is@^16.8.4:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.9.0.tgz#21ca9561399aad0ff1a7701c01683e8ca981edcb"
   integrity sha512-tJBzzzIgnnRfEm046qRcURvwQnZVXmuCbscxUO5RWrGTXpon2d4c8mI0D8WE6ydVIm29JiLB6+RslkIvym9Rjw==
+
+react-open-iconic-svg@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/react-open-iconic-svg/-/react-open-iconic-svg-3.0.1.tgz#502fe4580f9567cea06460574af8dd051acdd55f"
+  integrity sha512-oZkq5REyWOnLO2NpaDNl0xxQhPQvBWrevhhfVxNlNdWJJ9cjeEkbVuirCJoNv7MQBqjGGyeHINLnrNVMdYyoxQ==
 
 react-scripts@3.1.1:
   version "3.1.1"

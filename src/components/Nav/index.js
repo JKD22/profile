@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import "open-iconic/font/css/open-iconic-bootstrap.css"
 import './style.css';
 
 
@@ -8,12 +9,9 @@ const Nav = () => (
         <div className="navbar">
             <div className="navbar-inner">
                 <div className="container">
-                <ul className="logo"></ul>
                     <ul className="nav">
-                        <li className="active"><a className="brand" href="/#">JK</a></li>
-                        <li><a href="/#">Home</a></li>
-                        <li><a href="/#">About</a></li>
-                        <li><a href="/#">Contact</a></li>
+                        {/* <li><a className="oi oi-menu" href="/#"/></li> */}
+                        <li><a className="oi oi-home" href="/#"/></li>
                     </ul>
                 </div>
             </div>
