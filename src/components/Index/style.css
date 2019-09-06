@@ -1,17 +1,45 @@
 /* Index */
-hr {
-    width: auto;
-    margin: 0px 15px 4px 15px;
-  }
-
-.mB-30 {
-    margin-bottom: 30px;
-}
-
 #logo {
   height: 12rem;
   width: 15rem;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
+  top: -0.2rem;
+}
+
+#divider-top {
+  height: 12rem;
+  width: 10rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 10rem;
+}
+
+/* animations */
+.fade-in {
+  animation: 2.5s ease-out 0s 1 fadeIn;
+}
+@keyframes fadeIn {
+  0% {
+    filter: opacity(0%);
+  }
+  100% {
+    filter: opacity(100%);
+  }
+}
+
+.expand-from-center {
+  animation: 2.5s ease-out 0s 1 expandFromCenter;
+}
+@keyframes expandFromCenter {
+  0% {
+    width: 0;
+    filter: opacity(0%);
+  }
+  100% {
+    width: 10rem;
+    filter: opacity(100%);
+  }
 }

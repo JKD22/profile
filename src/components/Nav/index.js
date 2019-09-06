@@ -10,7 +10,7 @@ const Nav = () => (
             <div className="navbar-inner">
                 <div className="container">
                     <ul className="nav">
-                        <li><a className="oi oi-home" href="/#"/></li>
+                        <li><a className="oi oi-home fade-in" href="/#"/></li>
                     </ul>
                 </div>
             </div>
