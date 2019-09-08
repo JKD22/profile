@@ -1,11 +1,13 @@
 import React from "react";
 import DividerTop from "../TopDivider";
-// import "./style.css";
+import Triangle from "../Triangle";
+import "./index.css";
 
 const Body = () => (
-    <body className="body">
+    <div className="body">
       <DividerTop/>
-    </body>
+      <Triangle/>
+    </div>
   );
 
 export default Body;
